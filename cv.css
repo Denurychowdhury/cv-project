@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 80px;
+   
+    
+}
+.name-section h1{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #00b0f0;
+    font-family: tahoma;
+    font-size: 30px;
+}
+.name-section a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: tahoma;
+}
+.name-section p{
+    font-size: 20px;
+    font-family: tahoma;
+}
+.name-section .main-column{
+    display: flex;
+    justify-content: space-between;
+   border-bottom: 2px solid black;
+}
+
+.name-section .right-column img{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 30px;
+   
+}
+.name-section .adress-column{
+    padding-top: 30px;
+}
+.career-section .container{
+    padding-top: 30px;
+}
+.career-section .objective h3{
+    background-color: #e6e6e6;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: tahoma;
+  
+}
+.career-section .objective p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: tahoma;
+}
+.career-section .qualification h3{
+    background-color: #e6e6e6;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform:capitalize;
+    font-family: tahoma;
+}
+.career-section .qualification p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: tahoma;
+}
+.career-section .qualification ul{
+    list-style-type:none;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+
+.career-section  .qualification ul li{
+    padding-left: 60px;
+    font-size: 20px;
+    position: relative;
+    font-family: tahoma;
+}
+.career-section  .qualification ul li::before{
+    content: '\f00c';
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    left:0;
+    font-family: fontawesome;
+    padding-left: 20px;
+}
+
+.project {
+    padding-top: 20px;
+}
+.project h2{
+    font-family: tahoma;
+}
+.project ul{
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+.project ul li{
+    list-style-type: decimal ;
+    padding-left: 20px;
+    color: black;
+    font-size: 20px;
+    font-family: tahoma;  
+}
+.project ul li a{
+    color: black;
+
+}
+.github{
+    padding-bottom: 30px;
+    font-family: tahoma;
+}
+.github a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+
+.working-ex .main-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: tahoma;
+    font-size: 20px;
+}
+.working-ex h1{
+    font-family: tahoma;
+}
+
+.table-section h1{
+    background-color: #e6e6e6;
+    margin-bottom: 20px;
+  font-family: tahoma;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+
+table th, td{
+    padding: 20px;
+    
+}
+.details .container{
+    padding-top: 30px;
+}
+.Personal h1{
+    background-color: #e6e6e6;
+    font-family: tahoma;
+}
+.Personal .main-column{
+    display: grid;
+    grid-template-columns: 1.5fr 4fr  1fr;
+    padding-bottom: 80px;
+    
+}
+.Personal p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: tahoma;
+}
+.details h4{
+    font-family: tahoma;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
